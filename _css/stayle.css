@@ -1,0 +1,243 @@
+    body {
+        background-color: #fdfdfd;
+    }
+
+    h1 {
+        text-align: center;
+        color: #f70153;
+        font-family: 'Arial', sans-serif;
+        margin-top: 20px;
+    }
+    
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .navbar {
+        background-color: #92034a;
+        width: 100%;
+    }
+    
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .navbar li {
+        position: relative;
+    }
+    
+    .navbar a {
+        display: block;
+        padding: 14px 20px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        transition: background-color 0.3s;
+    }
+
+    .navbar a:hover {
+        background-color: #ff046ca2;
+        border-radius: 6px;
+    }
+
+    /* Frutas */
+    #frutas table {
+        background-color: #fff2e6;
+        border: 2px solid #ffa94d;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    #frutas th, #frutas td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    #frutas tr:hover {
+        background-color: #ffe0b3;
+    }
+
+    /* Países */
+    #paises table {
+        background: #e6f7ff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    #paises th {
+        background: #3399ff;
+        color: white;
+    }
+
+    #paises td, #paises th {
+        padding: 12px;
+        text-align: left;
+    }
+
+    #paises tbody tr:nth-child(even) {
+        background: #d6ebff;
+    }
+
+    /* Animales */
+    #animales table {
+        background: #f0fff0;
+        border: 3px dashed #00cc66;
+        border-radius: 20px;
+    }
+
+    #animales td, #animales th {
+        padding: 8px;
+        text-align: right;
+        font-style: italic;
+    }
+
+    #animales tr:hover {
+        background: #c6f5d8;
+    }
+
+    /* Lenguajes de programación */
+    #lenguajes table {
+        background: linear-gradient(to right, #f7f7f7, #e0e0e0);
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+
+    #lenguajes th {
+        background: #333;
+        color: white;
+    }
+
+    #lenguajes td {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #lenguajes tr:hover {
+        background-color: #dddddd;
+    }
+
+    /* Películas */
+    #peliculas table {
+        background: #fff;
+        border: none;
+        border-left: 5px solid #555;
+    }
+
+    #peliculas th {
+        background-color: #222;
+        color: #fff;
+        text-align: left;
+        padding: 10px;
+    }
+
+    #peliculas td {
+        padding: 8px;
+        color: #333;
+    }
+
+    #peliculas tbody tr:hover {
+        background: #f2f2f2;
+    }
+
+    /* Libros */
+    #libros table {
+        background: #fdf0f5;
+        border: 1px solid #cc3366;
+        border-radius: 15px;
+    }
+
+    #libros th {
+        background: #cc3366;
+        color: white;
+    }
+
+    #libros td {
+        text-align: justify;
+        padding: 10px;
+    }
+
+    /* Ciudades */
+    #ciudades table {
+        background: #eef6ff;
+        border: 2px solid #3399cc;
+        border-spacing: 5px;
+    }
+
+    #ciudades th {
+        color: #004466;
+        text-transform: uppercase;
+    }
+
+    #ciudades td {
+        padding: 6px;
+        font-family: 'Courier New', monospace;
+        font-size: 0.95rem;
+    }
+
+    /* Deportes */
+    #deportes table {
+        background: #fffce0;
+        border-radius: 25px;
+        border: 2px dotted #999900;
+    }
+
+    #deportes th {
+        text-align: right;
+        background: #cccc00;
+        color: white;
+    }
+
+    #deportes td {
+        padding: 7px;
+        text-align: right;
+    }
+
+    #deportes tr:hover {
+        background: #fffa99;
+    }
+
+    /* Instrumentos Musicales */
+    #instrumentos table {
+        background: #edeaff;
+        border: 3px double #663399;
+        border-radius: 12px;
+        font-weight: bold;
+    }
+
+    #instrumentos th {
+        background: #663399;
+        color: white;
+    }
+
+    #instrumentos td {
+        text-align: center;
+        padding: 12px;
+    }   
+
+    #instrumentos tbody tr:hover {
+        background: #d9ccff;
+    }
+
+    caption {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 0.8rem;
+        color: #333;
+        font-weight: bold;
+        text-decoration: underline;
+        text-shadow: 1px 1px 2px #ccc;
+    }
+    footer {
+        text-align: center;
+        padding: 2px;
+        background-color: #f7015393;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
